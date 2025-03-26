@@ -40,7 +40,9 @@ Perfect for gaining visibility into your system performance, logs, and distribut
    ./setup.sh
    ```
      or
-   ``` bash setup.sh```
+   ```bash
+    sudo bash setup.sh
+   ```
 
 ---
 
