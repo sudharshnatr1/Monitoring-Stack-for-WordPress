@@ -13,7 +13,7 @@ Perfect for gaining visibility into your system performance, logs, and distribut
 | Prometheus  | Metrics collection               | `9090`   |
 | Grafana     | Data visualization dashboard     | `3000`   |
 | Loki        | Log aggregation                  | `3100`   |
-| Promtail    | Log shipping to Loki             | —        |
+| Promtail    | Log shipping to Loki             |  ` - `   |
 | Jaeger      | Distributed tracing              | `16686`  |
 
 ---
@@ -37,8 +37,35 @@ Perfect for gaining visibility into your system performance, logs, and distribut
    ```
 2. Run the script
    ```bash
-   ./setup-monitoring.sh
+   ./setup.sh
    ```
      or
-   ``` bash install.sh```
+   ``` bash setup.sh```
 
+---
+
+### 🌐 Access Your Monitoring Stack
+After the script runs, access each service via your browser:
+
+Prometheus: http://<server-ip>:9090
+
+Grafana: http://<server-ip>:3000
+Default login: admin / admin
+
+Loki API: http://<server-ip>:3100
+
+Jaeger UI: http://<server-ip>:16686
+
+
+---
+### 📜 License
+MIT License
+
+---
+
+### 🙌 Credits
+Prometheus
+Grafana
+Loki
+Jaeger
+Docker
