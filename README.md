@@ -67,7 +67,11 @@ MIT License
 
 ### 🙌 Credits
 Prometheus
+
 Grafana
+
 Loki
+
 Jaeger
+
 Docker
