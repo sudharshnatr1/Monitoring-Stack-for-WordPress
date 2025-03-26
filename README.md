@@ -33,7 +33,7 @@ Perfect for gaining visibility into your system performance, logs, and distribut
 1. Clone this repository:
    ```bash
    git clone https://github.com/sudharshnatr1/Monitoring-Stack-for-WordPress.git
-   cd monitoring-stack
+   cd Monitoring-Stack-for-WordPress
    ```
 2. Run the script
    ```bash
