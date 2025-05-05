@@ -1,4 +1,4 @@
-# 📊 Docker-Based Monitoring Stack for WordPress & Linux Servers
+# Docker-Based Monitoring Stack for WordPress & Linux Servers
 
 This script sets up a powerful, containerized monitoring stack for your WordPress server (or any Linux server). It includes Prometheus, Grafana, Loki, Promtail, and Jaeger using Docker Compose – all configured to work out-of-the-box.
 
@@ -6,7 +6,7 @@ Perfect for gaining visibility into your system performance, logs, and distribut
 
 ---
 
-## ⚙️ What's Included?
+##  What's Included?
 
 | Tool        | Purpose                          | Port     |
 |-------------|----------------------------------|----------|
@@ -18,9 +18,9 @@ Perfect for gaining visibility into your system performance, logs, and distribut
 
 ---
 
-## 🚀 How to Use
+##  How to Use
 
-### 🛠 Prerequisites
+###  Prerequisites
 
 - Ubuntu/Debian system
 - Root or sudo privileges
@@ -28,7 +28,7 @@ Perfect for gaining visibility into your system performance, logs, and distribut
 
 ---
 
-### 📦 Installation
+### Installation
 
 1. Clone this repository:
    ```bash
@@ -46,7 +46,7 @@ Perfect for gaining visibility into your system performance, logs, and distribut
 
 ---
 
-### 🌐 Access Your Monitoring Stack
+### Access Your Monitoring Stack
 After the script runs, access each service via your browser:
 
 Prometheus: http://<server-ip>:9090
@@ -60,12 +60,12 @@ Jaeger UI: http://<server-ip>:16686
 
 
 ---
-### 📜 License
+###  License
 MIT License
 
 ---
 
-### 🙌 Credits
+### Credits
 Prometheus
 
 Grafana
